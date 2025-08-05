@@ -10,7 +10,7 @@
     },
     {
         "fromtext": "Google",
-        "from": "/images/icon/google-2.png",
+        "from": "/untitled/images/icon/google-2.png",
         "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
         "authorimg": "/images/testimonial/testimonial-2.png",
         "authorname": "Savannah Nguyen",
@@ -18,7 +18,7 @@
     },
     {
         "fromtext": "Facebook",
-        "from": "/images/icon/fb-2.png",
+        "from": "/untitled/images/icon/fb-2.png",
         "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
         "authorimg": "/images/testimonial/testimonial-3.png",
         "authorname": "Floyd Miles",
@@ -26,7 +26,7 @@
     },
     {
         "fromtext": "Yelp",
-        "from": "/images/icon/yelp-2.png",
+        "from": "/untitled/images/icon/yelp-2.png",
         "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
         "authorimg": "/images/testimonial/testimonial-1.png",
         "authorname": "Darrell Steward",
@@ -34,7 +34,7 @@
     },
     {
         "fromtext": "Google",
-        "from": "/images/icon/google-2.png",
+        "from": "/untitled/images/icon/google-2.png",
         "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
         "authorimg": "/images/testimonial/testimonial-2.png",
         "authorname": "Savannah Nguyen",
@@ -42,7 +42,7 @@
     },
     {
         "fromtext": "Facebook",
-        "from": "/images/icon/fb-2.png",
+        "from": "/untitled/images/icon/fb-2.png",
         "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
         "authorimg": "/images/testimonial/testimonial-3.png",
         "authorname": "Floyd Miles",
@@ -50,7 +50,7 @@
     },
     {
         "fromtext": "Yelp",
-        "from": "/images/icon/yelp-2.png",
+        "from": "/untitled/images/icon/yelp-2.png",
         "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
         "authorimg": "/images/testimonial/testimonial-1.png",
         "authorname": "Darrell Steward",
@@ -75,3 +75,4 @@
 
 
 ]
+
