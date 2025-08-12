@@ -38,13 +38,13 @@ export default function page() {
         </div>
         <ul className="list-unstyled shape-group-12">
           <li className="shape shape-1">
-            <img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Bubble" />
+            <img src={"/images/others/bubble-2.png"} alt="Bubble" />
           </li>
           <li className="shape shape-2">
-            <img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Bubble" />
+            <img src={"/images/others/bubble-1.png"} alt="Bubble" />
           </li>
           <li className="shape shape-3">
-            <img src={process.env.PUBLIC_URL + "/images/others/circle-3.png"} alt="Circle" />
+            <img src={"/images/others/circle-3.png"} alt="Circle" />
           </li>
         </ul>
       </div>
