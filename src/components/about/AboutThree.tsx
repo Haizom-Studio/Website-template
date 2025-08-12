@@ -48,12 +48,13 @@ const AboutThree = () => {
                 </div>
             </div>
             <ul className="list-unstyled shape-group-10">
-                <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
-                <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
-                <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
+                <li className="shape shape-1"><img src={"/images/others/circle-1.png"} alt="Circle" /></li>
+                <li className="shape shape-2"><img src={"/images/others/line-3.png"} alt="Circle" /></li>
+                <li className="shape shape-3"><img src={"/images/others/bubble-5.png"} alt="Circle" /></li>
             </ul>
         </div>
     )
 }
+
 
 export default AboutThree;
