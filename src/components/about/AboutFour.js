@@ -11,7 +11,7 @@ const AboutFour = () => {
                     <div className="row">
                     <div className="col-xl-7 col-lg-6">
                         <div className="case-study-featured-thumb text-start">
-                        <img src={process.env.PUBLIC_URL + "/images/others/case-study-4.png"} alt="travel" />
+                        <img src={"/images/others/case-study-4.png"} alt="travel" />
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6">
@@ -59,5 +59,6 @@ const AboutFour = () => {
 
     )
 }
+
 
 export default AboutFour;
