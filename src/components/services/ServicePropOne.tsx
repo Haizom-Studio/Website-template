@@ -12,7 +12,12 @@ interface ServicePropOneProps {
 
 const AllData = ServiceData;
 
-const ServicePropOne = ({ colSize, serviceStyle, itemShow, marginTop }: ServicePropOneProps) => {
+const ServicePropOne = ({
+  colSize,
+  serviceStyle,
+  itemShow,
+  marginTop,
+}: ServicePropOneProps) => {
   const topMargin = (index: number) => {
     if (marginTop === "yes") {
       if (index === 0) {
@@ -33,14 +38,19 @@ const ServicePropOne = ({ colSize, serviceStyle, itemShow, marginTop }: ServiceP
         <div className={`${colSize} ${topMargin(index)}`} key={index}>
           <div className={`services-grid ${serviceStyle}`}>
             <div className="thumbnail">
-              <img src={process.env.PUBLIC_URL + data.image} alt="icon" />
+              <img src={data.image} alt="icon" />
             </div>
             <div className="content">
               <h5 className="title">
-                <Link href={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                <Link href={`/service-details/${slugify(data.title)}`}>
+                  {data.title}
+                </Link>
               </h5>
               <p>{data.description}</p>
-              <Link href={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`} className="more-btn">
+              <Link
+                href={`/service-details/${slugify(data.title)}`}
+                className="more-btn"
+              >
                 Find out more
               </Link>
             </div>

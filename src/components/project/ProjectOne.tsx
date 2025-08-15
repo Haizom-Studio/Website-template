@@ -12,19 +12,24 @@ interface ProjectOneProps {
   columnGap?: string;
 }
 
-const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }: ProjectOneProps) => {
+const ProjectOne = ({
+  parentClass,
+  colSize,
+  itemShow,
+  columnGap,
+}: ProjectOneProps) => {
   const [getAllItems] = useState(AllData);
   const [visiableProject] = useState(itemShow ? itemShow : 6);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState<any>([]);
 
-
-
- 
-
   return (
     <>
-      <div className={`section section-padding-2 ${parentClass ? parentClass : ""}`}>
+      <div
+        className={`section section-padding-2 ${
+          parentClass ? parentClass : ""
+        }`}
+      >
         <div className="container">
           <SectionTitle
             subtitle="Our Project"
@@ -34,7 +39,7 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }: ProjectOnePro
             textColor=""
             description=""
           />
-  
+
           <div className={`row ${columnGap ? columnGap : "row-35"}`}>
             {AllData.map((data: any) => (
               <div className={colSize ? colSize : "col-md-6"} key={data.id}>
@@ -45,13 +50,13 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }: ProjectOnePro
         </div>
         <ul className="shape-group-7 list-unstyled">
           <li className="shape shape-1">
-            <img src={process.env.PUBLIC_URL + "/images/others/circle-2.png"} alt="circle" />
+            <img src={"/images/others/circle-2.png"} alt="circle" />
           </li>
           <li className="shape shape-2">
-            <img src={process.env.PUBLIC_URL + "/images/others/bubble-2.png"} alt="Line" />
+            <img src={"/images/others/bubble-2.png"} alt="Line" />
           </li>
           <li className="shape shape-3">
-            <img src={process.env.PUBLIC_URL + "/images/others/bubble-1.png"} alt="Line" />
+            <img src={"/images/others/bubble-1.png"} alt="Line" />
           </li>
         </ul>
       </div>
