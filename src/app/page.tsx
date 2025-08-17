@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="main-wrapper">
       <Navbar />
-      <BannerFour title="Company Vision" subtitle="We Believe In Delivering Quality Over Quantity" description="We are a one stop shop for all tailored software needs. with our services, we assure to deliver the solutions to streamline client 's operations. With a team of highly skilled developers and creative minds, we strive to achieve escalated client's satisfaction." />
+      <BannerFour title="Haizom Studio" subtitle="Engineering Ideas into Reality" description="At Haizom Studio, we don’t just develop solutions, we engineer them from hardware to software. From PCB design and embedded systems to IoT platforms, DevOps pipelines, web dashboards, and mobile apps, we bring innovation to life with precision and scalability." />
       <MainPageService />
       <BrandOne />
       <TestimonialOne />
