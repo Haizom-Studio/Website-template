@@ -8,8 +8,8 @@ const BrandOne = () => {
       <div className="container">
         <SectionTitle
           subtitle="Top Clients"
-          title="We’ve built solutions for..."
-          description="Design anything from simple icons to fully featured websites and applications."
+          title="Trusted by"
+          description="We help startups, enterprises, and innovators bring hardware and software solutions to life and trusted by clients across sectors."
           textAlignment="heading-light-left"
           textColor=""
         />
@@ -27,3 +27,4 @@ const BrandOne = () => {
 };
 
 export default BrandOne;
+
