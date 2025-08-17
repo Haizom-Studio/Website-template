@@ -1,8 +1,8 @@
 [
     {
         "image": "/images/icon/icon-1.png",
-        "title": "Design",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        "title": "PCB Design & Prototyping",
+        "description": "Custom circuit board layouts, schematic capture, PCB prototyping, and design for manufacturability.",
         "process": {
             "sectionSub": "Process",
             "sectionTitle": "Our logo design process",
@@ -38,8 +38,8 @@
     },
     {
         "image": "/images/icon/icon-2.png",
-        "title": "Development",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        "title": "IoT & Embedded Systems",
+        "description": "Develop smart devices with wireless communication (BLE, MQTT, LoRa), sensor integration, and edge intelligence.",
         "process": {
             "sectionSub": "Process",
             "sectionTitle": "Our logo design process",
@@ -75,8 +75,8 @@
     },
     {
         "image": "/images/icon/icon-3.png",
-        "title": "Online marketing",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        "title": "Hardware Programming",
+        "description": "Firmware development (C/C++, Python), ESP32, STM32, ARM, and low-power microcontrollers.",
         "process": {
             "sectionSub": "Process",
             "sectionTitle": "Our logo design process",
@@ -112,8 +112,8 @@
     },
     {
         "image": "/images/icon/icon-4.png",
-        "title": "Business",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        "title": "DevOps & Cloud Infrastructure",
+        "description": "CI/CD pipelines, containerization (Docker, Kubernetes), serverless architecture and scalable deployments.",
         "process": {
             "sectionSub": "Process",
             "sectionTitle": "Our logo design process",
@@ -149,8 +149,8 @@
     },
     {
         "image": "/images/icon/icon-5.png",
-        "title": "Technology",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        "title": "Web Development & Dashboards",
+        "description": "Full-stack web applications, data visualization dashboards, APIs using React, Node.js, Angular, Python.",
         "process": {
             "sectionSub": "Process",
             "sectionTitle": "Our logo design process",
@@ -186,8 +186,8 @@
     },
     {
         "image": "/images/icon/icon-6.png",
-        "title": "Content strategy",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        "title": "Mobile App Development",
+        "description": "Cross-platform Android/iOS apps with real-time backend integration and intuitive UI.",
         "process": {
             "sectionSub": "Process",
             "sectionTitle": "Our logo design process",
@@ -1061,3 +1061,4 @@
     }
     
 ]
+
