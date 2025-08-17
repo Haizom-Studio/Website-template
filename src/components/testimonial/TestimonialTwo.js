@@ -9,8 +9,8 @@ const TestimonialTwo = () => {
       <div className="container">
         <SectionTitle
           subtitle="Testimonial"
-          title="From getting started"
-          description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+          title="What Our Clients Say"
+          description="Their end to end engineering, from hardware to cloud dashboard, was precise, scalable and within budget."
           textAlignment="heading-left"
           textColor=""
         />
@@ -36,7 +36,7 @@ const TestimonialTwo = () => {
               </a>
             </li>
             <li className="linkedin">
-              <a href="https://www.linkedin.com/">
+              <a href="https://www.linkedin.com/company/haizom-studio/">
                 <span className="icon">
                   <FaLinkedinIn />
                 </span>
@@ -56,3 +56,4 @@ const TestimonialTwo = () => {
 };
 
 export default TestimonialTwo;
+
