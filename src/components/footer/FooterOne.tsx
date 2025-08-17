@@ -172,7 +172,7 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
             <div className="col-md-6">
               <div className="footer-copyright">
                 <span className="copyright-text">
-                  © {new Date().getFullYear()}. All rights reserved © 2025{" "}
+                  © {new Date().getFullYear()}. All rights reserved  {" "}
                   <a href="https://mbdengineering.com/">Haizom Studio</a>.
                 </span>
               </div>
@@ -197,4 +197,5 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
 };
 
 export default FooterOne;
+
 
