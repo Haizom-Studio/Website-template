@@ -8,8 +8,8 @@ const TestimonialOne = () => {
             <div className="container">
                 <SectionTitle
                     subtitle="Testimonial"
-                    title="From getting started"
-                    description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                    title="What Our Clients Say"
+                    description="Haizom Studio designed our prototype PCB and embedded firmware in just two weeks and it worked flawlessly on first run."
                     textAlignment="heading-left"
                     textColor=""
                 />
@@ -25,5 +25,6 @@ const TestimonialOne = () => {
         </div>
     )
 }
+
 
 export default TestimonialOne;
