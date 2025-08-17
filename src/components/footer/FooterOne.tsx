@@ -83,8 +83,9 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
                 <div className="footer-newsletter">
                   <h2 className="title">Get in touch!</h2>
                   <p>
-                    Fusce varius, dolor tempor interdum tristique, dui urna bib
-                    endum magna, ut ullamcorper purus
+                    Ready to engineer your product idea into reality? 
+                    Whether it's PCB design, IoT development, web & mobile apps 
+                    or complete systems, Haizom Studio is here to help.
                   </p>
                   <form>
                     <div className="input-group">
@@ -171,8 +172,8 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
             <div className="col-md-6">
               <div className="footer-copyright">
                 <span className="copyright-text">
-                  © {new Date().getFullYear()}. All rights reserved by{" "}
-                  <a href="https://axilthemes.com/">Axilthemes</a>.
+                  © {new Date().getFullYear()}. All rights reserved © 2025{" "}
+                  <a href="https://mbdengineering.com/">Haizom Studio</a>.
                 </span>
               </div>
             </div>
@@ -196,3 +197,4 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
 };
 
 export default FooterOne;
+
