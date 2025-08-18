@@ -6,6 +6,8 @@ interface Props {
   };
 }
 
+export const runtime = "edge";
+
 export default function ServiceDetailsPage({ params }: Props) {
   const { slug } = params;
 
