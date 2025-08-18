@@ -32,6 +32,8 @@ const ServicePropOne = ({
     }
   };
 
+  console.log(AllData.slice(0, itemShow));
+
   return (
     <>
       {AllData.slice(0, itemShow).map((data, index) => (
