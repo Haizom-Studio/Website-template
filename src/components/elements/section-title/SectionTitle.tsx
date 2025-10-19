@@ -1,5 +1,5 @@
 interface SectionTitleProps {
-  subtitle: string;
+  subtitle?: string;
   title: string;
   description: string;
   textAlignment: string;
@@ -9,7 +9,7 @@ interface SectionTitleProps {
 const SectionTitle = ({ subtitle, title, description, textAlignment, textColor }: SectionTitleProps ) => {
   return (
     <div className={`section-heading ${textAlignment} ${textColor}`}>
-      <div className="subtitle" dangerouslySetInnerHTML={{ __html: subtitle }}></div>
+      {/* <div className="subtitle" dangerouslySetInnerHTML={{ __html: subtitle }}></div> */}
       <h2 className="title" dangerouslySetInnerHTML={{ __html: title }}></h2>
       <p dangerouslySetInnerHTML={{ __html: description }}></p>
     </div>
