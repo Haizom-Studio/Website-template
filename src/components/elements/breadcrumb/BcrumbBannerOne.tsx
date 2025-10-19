@@ -24,11 +24,11 @@ const BcrumbBannerOne = ({
           ></h1>
           <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
         </div>
-        <div className={`banner-thumbnail ${styleClass}`}>
-          <Tilty perspective={2000} reset={false}>
-            <img src={mainThumb} alt="Illustration" />
+        {/* <div className={`banner-thumbnail ${styleClass}`}>
+          <Tilty perspective={1000} reset={false}>
+            <img src={mainThumb} alt="Illustration" className="" />
           </Tilty>
-        </div>
+        </div> */}
       </div>
       <ul className="shape-group-8 list-unstyled">
         <li className="shape shape-1">
