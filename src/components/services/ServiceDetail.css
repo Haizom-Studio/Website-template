@@ -1,0 +1,150 @@
+/* Service Detail Page Styles */
+.service-overview {
+  padding: 2rem 0;
+}
+
+.service-icon img {
+  transition: transform 0.3s ease;
+}
+
+.service-icon:hover img {
+  transform: scale(1.1);
+}
+
+.service-image img {
+  transition: transform 0.3s ease;
+}
+
+.service-image:hover img {
+  transform: scale(1.05);
+}
+
+.process-step {
+  padding: 2rem 1rem;
+  transition: transform 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+}
+
+.step-thumbnail img {
+  transition: transform 0.3s ease;
+}
+
+.process-step:hover .step-thumbnail img {
+  transform: scale(1.1);
+}
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e9ecef !important;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.feature-icon i {
+  transition: color 0.3s ease;
+}
+
+.feature-card:hover .feature-icon i {
+  color: #0d6efd !important;
+}
+
+.cta-content {
+  padding: 3rem 0;
+}
+
+.cta-buttons .btn {
+  transition: all 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .service-overview {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .process-step {
+    margin-bottom: 2rem;
+  }
+  
+  .feature-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Badge styling */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+
+/* Benefit items */
+.benefit-item {
+  padding: 2rem 1rem;
+  transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-icon i {
+  transition: transform 0.3s ease;
+}
+
+.benefit-item:hover .benefit-icon i {
+  transform: scale(1.1);
+}
+
+/* Service actions */
+.service-actions .btn {
+  transition: all 0.3s ease;
+}
+
+.service-actions .btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Section spacing */
+.section {
+  padding: 80px 0;
+}
+
+@media (max-width: 991px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 40px 0;
+  }
+}
