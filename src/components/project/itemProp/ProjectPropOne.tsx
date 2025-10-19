@@ -13,7 +13,7 @@ const PropOne = ({ projectStyle, portfolio }: PropOneProps) => {
       <div className={`project-grid ${projectStyle}`}>
         <div className="thumbnail">
           <Link href={`/project-details/${slugify(portfolio.title)}`}>
-            <img src={portfolio.image} alt="icon" />
+            <img src={portfolio.image} alt="icon" className="w-full h-48 object-cover" />
           </Link>
         </div>
         <div className="content">

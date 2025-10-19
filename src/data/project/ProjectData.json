@@ -2,15 +2,15 @@
     {
         "id": 1,
         "image": "/images/project/marti.png",
-        "title": "Creative Agency",
+        "title": "Chatbot Ai Solutions",
         "category": ["Branding", "Website", "App"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
         "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
     },
     {
         "id": 2,
-        "image": "/images/project/project-2.png",
-        "title": "Digital Marketing",
+        "image": "/images/project/operi.png",
+        "title": "HealthCare EVV Platform",
         "category": ["Logo", "Website", "Mobile"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
         "body": ["From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.", "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."]
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "image": "/images/project/project-4.png",
+        "image": "/images/project/hifiaudio.jpg",
         "title": "Plan Management",
         "category": ["Branding", "Website", "Mobile"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "image": "/images/project/project-5.png",
+        "image": "/images/project/bldc.jpg",
         "title": "Social Engagement",
         "category": ["Design", "Development"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "image": "/images/project/project-6.png",
+        "image": "/images/project/motorcontrol.jpg",
         "title": "Web Application",
         "category": ["Logo", "Webapp", "Mobile"],
         "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
