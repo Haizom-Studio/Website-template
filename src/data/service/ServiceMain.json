@@ -5,33 +5,33 @@
     "description": "Custom circuit board layouts, schematic capture, PCB prototyping, and design for manufacturability.",
     "process": {
       "sectionSub": "Process",
-      "sectionTitle": "Our logo design process",
-      "para": "Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+      "sectionTitle": "Our PCB Design Workflow",
+      "para": "Our structured PCB design process ensures performance, reliability, and manufacturability — turning your circuit idea into a robust product.",
       "steps": [
         {
           "thumb": "/images/others/process-1.png",
           "subtitle": "Step One",
-          "title": "Discover",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Requirements & Concept",
+          "paragraph": "We begin by understanding your circuit requirements, power constraints and design goals. This helps us define the board specifications, component selection and electrical design strategy."
         },
         {
           "thumb": "/images/others/process-2.png",
           "subtitle": "Step Two",
-          "title": "Prototype",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Schematic Design",
+          "paragraph": "Our engineers create detailed schematics, ensuring proper signal integrity, decoupling and protection circuits while keeping manufacturability in mind."
         },
         {
           "thumb": "/images/others/process-3.png",
           "subtitle": "Step Three",
-          "title": "Test",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "PCB Layout & Simulation",
+          "paragraph": "We convert the schematic into a multilayer PCB layout, optimizing trace routing, EMI control and thermal management. Simulations are performed to verify electrical performance."
         },
         {
           "id": 4,
           "thumb": "/images/others/process-4.png",
           "subtitle": "Step four",
-          "title": "Build",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Prototype & Validation",
+          "paragraph": "The design is fabricated and assembled for real world testing. We validate all key parameters - voltage, current, noise, and thermal behavior - before moving to production."
         }
       ]
     }
@@ -39,36 +39,36 @@
   {
     "image": "/images/icon/icon-2.png",
     "title": "IoT & Embedded Systems",
-    "description": "Develop smart devices with wireless communication (BLE, MQTT, LoRa), sensor integration, and edge intelligence.",
+    "description": "End-to-end embedded solutions - from firmware design to wireless connectivity using BLE, LoRa and MQTT. We build intelligent systems with optimized performance and low power consumption.",
     "process": {
       "sectionSub": "Process",
-      "sectionTitle": "Our logo design process",
-      "para": "Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+      "sectionTitle": "Our IoT Development Process",
+      "para": "From idea to deployment, our embedded systems development process ensures reliable connectivity, efficient firmware, and robust performance across all environments.",
       "steps": [
         {
           "thumb": "/images/others/process-1.png",
           "subtitle": "Step One",
-          "title": "Discover",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Requirement Analysis",
+          "paragraph": "We start by defining hardware specifications, communication protocols and system goals - ensuring alignment between device functionality and real-world use cases."
         },
         {
           "thumb": "/images/others/process-2.png",
           "subtitle": "Step Two",
-          "title": "Prototype",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Firmware & Prototype Development",
+          "paragraph": "Firmware is developed and tested on prototype hardware. We integrate sensors, wireless modules and microcontrollers while ensuring efficient memory and power use."
         },
         {
           "thumb": "/images/others/process-3.png",
           "subtitle": "Step Three",
-          "title": "Test",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Testing & Optimization",
+          "paragraph": "We perform functional, performance and reliability testing. Optimization focuses on low-power modes, ADC calibration and real-time data accuracy."
         },
         {
           "id": 4,
           "thumb": "/images/others/process-4.png",
           "subtitle": "Step four",
-          "title": "Build",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Deployment & Support",
+          "paragraph": "The final firmware is integrated into production hardware. We provide post-deployment monitoring, OTA updates and long-term technical support."
         }
       ]
     }
@@ -76,36 +76,36 @@
   {
     "image": "/images/icon/icon-3.png",
     "title": "Hardware Programming",
-    "description": "Firmware development (C/C++, Python), ESP32, STM32, ARM, and low-power microcontrollers.",
+    "description": "Specialized in firmware development using C/C++ and Python for microcontrollers like ESP32, STM32, and ARM Cortex. Focused on real-time performance, peripheral integration, and power-efficient operation.",
     "process": {
       "sectionSub": "Process",
-      "sectionTitle": "Our logo design process",
-      "para": "Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+      "sectionTitle": "Our Firmware Development Process",
+      "para": "Our firmware development workflow ensures stable, optimized, and maintainable code tailored to each device’s hardware architecture.",
       "steps": [
         {
           "thumb": "/images/others/process-1.png",
           "subtitle": "Step One",
-          "title": "Discover",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "System Analysis & Setup",
+          "paragraph": "We begin by studying hardware schematics and defining communication interfaces like UART, SPI, I2C and ADC. Toolchains and build environments are configured for target MCUs."
         },
         {
           "thumb": "/images/others/process-2.png",
           "subtitle": "Step Two",
-          "title": "Prototype",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Firmware Development",
+          "paragraph": "Core firmware is written in C/C++ or MicroPython. We implement interrupt routines, sensor drivers and control logic optimized for timing and memory efficiency."
         },
         {
           "thumb": "/images/others/process-3.png",
           "subtitle": "Step Three",
-          "title": "Test",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Testing & Debugging",
+          "paragraph": "Each module undergoes simulation and real-hardware debugging using serial monitors and oscilloscopes to ensure consistent performance."
         },
         {
           "id": 4,
           "thumb": "/images/others/process-4.png",
           "subtitle": "Step four",
-          "title": "Build",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Optimization & Integration",
+          "paragraph": "Final code is refined for low-power operation, flash and RAM efficiency and integrated with communication stacks such as BLE, Wi-Fi or RF protocols based on requirements."
         }
       ]
     }
@@ -113,36 +113,36 @@
   {
     "image": "/images/icon/icon-4.png",
     "title": "DevOps & Cloud Infrastructure",
-    "description": "CI/CD pipelines, containerization (Docker, Kubernetes), serverless architecture and scalable deployments.",
+    "description": "Automated CI/CD pipelines, Docker & Kubernetes containerization, and scalable cloud deployment using AWS, GCP, and Azure.",
     "process": {
       "sectionSub": "Process",
-      "sectionTitle": "Our logo design process",
-      "para": "Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+      "sectionTitle": "Our DevOps Implementation Process",
+      "para": "We build robust, automated and scalable infrastructures to streamline your development and deployment lifecycle.",
       "steps": [
         {
           "thumb": "/images/others/process-1.png",
           "subtitle": "Step One",
-          "title": "Discover",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Infrastructure Planning",
+          "paragraph": "We analyze your project requirements to design efficient cloud architectures. Whether monolithic or microservices-based, we ensure security, reliability, and scalability from the start."
         },
         {
           "thumb": "/images/others/process-2.png",
           "subtitle": "Step Two",
-          "title": "Prototype",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Automation & CI/CD Setup",
+          "paragraph": "We implement automated CI/CD pipelines using GitHub Actions, GitLab CI, or Jenkins — ensuring seamless integration, testing, and deployment to your cloud environments."
         },
         {
           "thumb": "/images/others/process-3.png",
           "subtitle": "Step Three",
-          "title": "Test",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Containerization & Orchestration",
+          "paragraph": "Applications are containerized using Docker and orchestrated with Kubernetes, allowing isolated, consistent, and easily scalable deployments across environments."
         },
         {
           "id": 4,
           "thumb": "/images/others/process-4.png",
           "subtitle": "Step four",
-          "title": "Build",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Monitoring & Optimization",
+          "paragraph": "We integrate monitoring and logging tools like Prometheus, Grafana, and ELK stack to maintain performance visibility and enable proactive system optimization."
         }
       ]
     }
@@ -150,36 +150,36 @@
   {
     "image": "/images/icon/icon-5.png",
     "title": "Web Development & Dashboards",
-    "description": "Full-stack web applications, data visualization dashboards, APIs using React, Node.js, Angular, Python.",
+    "description": "Full-stack web apps, admin dashboards, and interactive data visualization tools built using React, Node.js, Angular, and Python frameworks.",
     "process": {
       "sectionSub": "Process",
-      "sectionTitle": "Our logo design process",
-      "para": "Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+      "sectionTitle": "Our Web Development Process",
+      "para": "From concept to deployment, we design and build high-performance web applications and dashboards that deliver data clarity and business automation.",
       "steps": [
         {
           "thumb": "/images/others/process-1.png",
           "subtitle": "Step One",
-          "title": "Discover",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Requirement Analysis",
+          "paragraph": "We begin by understanding your business goals, technical needs and user flows to define the core functionality and tech stack that fits your project best."
         },
         {
           "thumb": "/images/others/process-2.png",
           "subtitle": "Step Two",
-          "title": "Prototype",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Design & Prototype",
+          "paragraph": "Interactive UI/UX prototypes are crafted using Figma or React-based design systems, ensuring a seamless experience across web and mobile platforms."
         },
         {
           "thumb": "/images/others/process-3.png",
           "subtitle": "Step Three",
-          "title": "Test",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Development & Integration",
+          "paragraph": "Our team develops full-stack solutions using frameworks like React, Node.js, Django, or Flask. RESTful APIs and real-time data integration deliver smooth, connected experiences."
         },
         {
           "id": 4,
           "thumb": "/images/others/process-4.png",
           "subtitle": "Step four",
-          "title": "Build",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Testing & Deployment",
+          "paragraph": "We perform end-to-end testing, optimize performance, and deploy using CI/CD pipelines with scalable hosting options like Vercel, AWS, or Dockerized servers."
         }
       ]
     }
@@ -187,36 +187,36 @@
   {
     "image": "/images/icon/icon-6.png",
     "title": "Mobile App Development",
-    "description": "Cross-platform Android/iOS apps with real-time backend integration and intuitive UI.",
+    "description": "Cross-platform Android and iOS apps built with React Native and Flutter, featuring real-time backend integration and seamless user experiences.",
     "process": {
       "sectionSub": "Process",
-      "sectionTitle": "Our logo design process",
-      "para": "Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+      "sectionTitle": "Our Mobile App Development Process",
+      "para": "We build high-performance mobile apps that combine elegant UI, responsive design, and robust backend integration — ensuring your product runs flawlessly across platforms.",
       "steps": [
         {
           "thumb": "/images/others/process-1.png",
           "subtitle": "Step One",
-          "title": "Discover",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Concept & Strategy",
+          "paragraph": "We start by understanding your app’s purpose, target users, and functional requirements. Based on this, we plan the tech stack, app architecture, and development roadmap."
         },
         {
           "thumb": "/images/others/process-2.png",
           "subtitle": "Step Two",
-          "title": "Prototype",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "UI/UX Design & Prototyping",
+          "paragraph": "Our team designs intuitive, modern interfaces that deliver a smooth and engaging user journey. Interactive prototypes are created for early feedback and refinement."
         },
         {
           "thumb": "/images/others/process-3.png",
           "subtitle": "Step Three",
-          "title": "Test",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "App Development",
+          "paragraph": "We develop using frameworks like React Native and Flutter for cross-platform compatibility. Real-time databases, APIs, and authentication systems are integrated for complete functionality."
         },
         {
           "id": 4,
           "thumb": "/images/others/process-4.png",
           "subtitle": "Step four",
-          "title": "Build",
-          "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+          "title": "Testing & Deployment",
+          "paragraph": "After thorough performance and UX testing, we deploy the app to Play Store and App Store with proper CI/CD pipelines, versioning, and analytics tracking for post-launch insights."
         }
       ]
     }
@@ -1060,3 +1060,4 @@
     }
   }
 ]
+
