@@ -14,23 +14,23 @@ export default function page() {
           <div className="row">
             <div className="col-xl-5 col-lg-6">
               <div className="contact-form-box shadow-box mb--30">
-                <h3 className="title">Get a free Abstrak quote now</h3>
+                <h3 className="title">Contact us now to get the quote for your required services</h3>
                 <FormTwo />
               </div>
             </div>
             <div className="col-xl-5 col-lg-6 offset-xl-1">
               <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                 <h4 className="title">Phone</h4>
-                <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
+                <p>Our office is open from Mon-Sat, 8:00 am to 11:00 pm</p>
                 <h4 className="phone-number">
                   <a href="tel:1234567890">(123) 456 7890</a>
                 </h4>
               </div>
               <div className="contact-info mb--30">
                 <h4 className="title">Email</h4>
-                <p>Our support team will get back to in 48-h during standard business hours.</p>
+                <p>Our support team will get back to you within 12-h during standard business hours.</p>
                 <h4 className="phone-number">
-                  <a href="mailto:info@example.com">info@example.com</a>
+                  <a href="mailto:contact@mbdengineering.com">contact@mbdengineering.com</a>
                 </h4>
               </div>
             </div>
