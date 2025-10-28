@@ -22,7 +22,7 @@ const BannerFour = ({ title, description, subtitle }: BannerFourProps) => {
           <p>{description}</p>
           <div>
             <Link
-              href={"/project-grid-one"}
+              href={"/projects"}
               className="axil-btn btn-fill-primary btn-large"
             >
               View Showcase

@@ -11,7 +11,7 @@ const BannerTwo = () => {
             <div className="banner-content">
               <h1 className="title">Technology &amp; design studio</h1>
               <Link
-                to={"/project-grid-one"}
+                to={"/projects"}
                 className="axil-btn btn-fill-white btn-large"
               >
                 View Showcase
