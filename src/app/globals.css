@@ -6078,17 +6078,27 @@ body.active-dark-mode .my_switcher button span.dark {
 }
 @media only screen and (max-width: 1199px) {
   .contact-info .phone-number {
-    font-size: 42px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 2560px) {
+  .contact-info .phone-number {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .contact-info .phone-number {
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 991px) {
   .contact-info .phone-number {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 767px) {
   .contact-info .phone-number {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 .contact-info .phone-number a:hover {

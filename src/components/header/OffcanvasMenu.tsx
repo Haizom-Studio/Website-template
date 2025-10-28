@@ -67,17 +67,17 @@ const OffcanvasMenu = ({
                 <address className="address">
                   <span className="title">Contact Information</span>
                   <p>
-                    Theodore Lowe, Ap #867-859 <br /> Sit Rd, Azusa New York
+                    Office M-7, Kashif Arcade, PWD, Islamabad, Pakistan.
                   </p>
                 </address>
                 <address className="address">
                   <span className="title">We're Available 24/7. Call Now.</span>
-                  <a href="tel:8884562790" className="tel">
-                    <FaPhone /> (888) 456-2790
+                  <a href="tel:+923345577900" className="tel">
+                    <FaPhone /> +92 334-5577900
                   </a>
-                  <a href="tel:12125553333" className="tel">
+                  {/* <a href="tel:12125553333" className="tel">
                     <FaFax /> (121) 255-53333
-                  </a>
+                  </a> */}
                 </address>
               </div>
               <div className="contact-inner">
@@ -101,7 +101,7 @@ const OffcanvasMenu = ({
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/">
+                      <a href="https://www.linkedin.com/company/haizom-studio/">
                         <FaLinkedinIn />
                       </a>
                     </li>

@@ -23,15 +23,15 @@ export default function page() {
                 <h4 className="title">Phone</h4>
                 <p>Our office is open from Mon-Sat, 8:00 am to 11:00 pm</p>
                 <h4 className="phone-number">
-                  <a href="tel:1234567890">(123) 456 7890</a>
+                  <a href="tel:+923345577900">+92 334-5577900</a>
                 </h4>
               </div>
               <div className="contact-info mb--30">
                 <h4 className="title">Email</h4>
                 <p>Our support team will get back to you within 12-h during standard business hours.</p>
-                <h4 className="phone-number">
-                  <a href="mailto:contact@mbdengineering.com">contact@mbdengineering.com</a>
-                </h4>
+                <h3 className="phone-number">
+                  <a href="mailto:contact@mbdengineering.com" className="text-[10px]">contact@mbdengineering.com</a>
+                </h3>
               </div>
             </div>
           </div>
