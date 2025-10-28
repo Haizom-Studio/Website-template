@@ -31,7 +31,7 @@ const BannerFour = ({ title, description, subtitle }: BannerFourProps) => {
         </div>
         <div className="banner-thumbnail">
           <div className="large-thumb">
-            <Tilty perspective={3000}>
+            <Tilty perspective={1000}>
               <img src={"/images/banner/banner-thumb-7.png"} alt="Shape" />
             </Tilty>
           </div>

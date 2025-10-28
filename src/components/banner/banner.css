@@ -418,13 +418,13 @@
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .banner.banner-style-4 .banner-content .title {
-    font-size: 70px;
+    font-size: 50px;
     width: 55%;
   }
 }
 @media only screen and (max-width: 1199px) {
   .banner.banner-style-4 .banner-content .title {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -446,9 +446,15 @@
 }
 .banner.banner-style-4 .banner-content p {
   font-size: var(--font-body-1);
-  width: 50%;
+  width: 45%;
   margin-bottom: 40px;
 }
+
+/* @media only screen and (max-width: 2569px) {
+  .banner.banner-style-4 .banner-content p {
+    width: 5%;
+  }
+} */
 @media only screen and (max-width: 991px) {
   .banner.banner-style-4 .banner-content p {
     width: 100%;
@@ -462,18 +468,18 @@
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .banner.banner-style-4 .banner-thumbnail {
-    right: -300px;
+    right: -450px;
   }
   .banner.banner-style-4 .banner-thumbnail img {
-    width: 85%;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 1199px) {
   .banner.banner-style-4 .banner-thumbnail {
-    right: -570px;
+    right: -680px;
   }
   .banner.banner-style-4 .banner-thumbnail img {
-    width: 60%;
+    width: 40%;
   }
 }
 @media only screen and (max-width: 991px) {
