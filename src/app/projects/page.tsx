@@ -9,7 +9,7 @@ function page() {
     <div>
       <BcrumbBannerOne
         title="Our Projects"
-        paragraph="A quick view of industry specific problems solved with design by the awesome team at Abstrak.
+        paragraph="A quick view of industry specific problems solved with design by the awesome team at Haizom.
                 "
         styleClass=""
         mainThumb="/images/banner/banner-thumb-1.png"

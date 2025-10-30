@@ -131,14 +131,14 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
                     <div className="footer-menu-link">
                       <ul className="list-unstyled">
                         <li>
-                          <Link href={"/blog-grid"}>Blog</Link>
+                          <Link href={"/blog"}>Blog</Link>
                         </li>
                         <li>
                           {" "}
-                          <Link href={"/case-study"}>Case Studies</Link>
+                          <Link href={"/case-studies"}>Case Studies</Link>
                         </li>
                         <li>
-                          <Link href={"/project-grid-one"}>Portfolio</Link>
+                          <Link href={"/projects"}>Portfolio</Link>
                         </li>
                       </ul>
                     </div>
@@ -150,14 +150,14 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
                     <div className="footer-menu-link">
                       <ul className="list-unstyled">
                         <li>
-                          <Link href={"/contact"}>Contact</Link>
+                          <Link href={"/contact-us"}>Contact</Link>
                         </li>
                         <li>
                           {" "}
                           <Link href={"/privacy-policy"}>Privacy Policy</Link>
                         </li>
                         <li>
-                          <Link href={"/terms-use"}>Terms of Use</Link>
+                          <Link href={"/terms-of-use"}>Terms of Use</Link>
                         </li>
                       </ul>
                     </div>
@@ -184,7 +184,7 @@ const FooterOne = ({ parentClass }: FooterOneProps) => {
                     <Link href={"/privacy-policy"}>Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href={"/terms-use"}>Terms of Use</Link>
+                    <Link href={"/terms-of-use"}>Terms of Use</Link>
                   </li>
                 </ul>
               </div>

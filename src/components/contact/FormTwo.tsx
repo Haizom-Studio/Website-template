@@ -2,41 +2,62 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "react-bootstrap/Alert";
 
-const Result = () => {
+const Result = ({ type, message }: { type: 'success' | 'error', message: string }) => {
   return (
-    <Alert variant="success" className="success-msg">
-      Your Message has been successfully sent.
+    <Alert variant={type} className={`${type === 'success' ? 'success-msg' : 'error-msg'}`}>
+      {message}
     </Alert>
   );
 };
 
 const FormTwo = () => {
   const form = useRef(null);
+  const [result, setResult] = useState<{ type: 'success' | 'error', message: string } | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const [result, showresult] = useState(false);
-
-  const sendEmail = (e: any) => {
+  const sendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
-  
-    if (form.current) {
-      emailjs.sendForm("service_yj5dgzp", "template_hfduayo", form.current, "WLENsTkBytC0yvItS").then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-      if (form.current) {
-        (form.current as HTMLFormElement).reset();
-      }
-    }
-    showresult(true);
-  };
+    setIsLoading(true);
+    setResult(null);
 
-  setTimeout(() => {
-    showresult(false);
-  }, 5000);
+    try {
+      if (form.current) {
+        // Replace these with your actual EmailJS credentials
+        const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "your_service_id";
+        const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "your_template_id";
+        const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "your_public_key";
+
+        const response = await emailjs.sendForm(serviceId, templateId, form.current, publicKey);
+        
+        if (response.status === 200) {
+          setResult({
+            type: 'success',
+            message: 'Your message has been successfully sent! We will get back to you within 24 hours.'
+          });
+          if (form.current) {
+            (form.current as HTMLFormElement).reset();
+          }
+        } else {
+          throw new Error('Failed to send email');
+        }
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      setResult({
+        type: 'error',
+        message: 'Sorry, there was an error sending your message. Please try again or contact us directly at contact@haizomstudio.com'
+      });
+    } finally {
+      setIsLoading(false);
+    }
+
+    // Auto-hide success message after 5 seconds
+    if (result?.type === 'success') {
+      setTimeout(() => {
+        setResult(null);
+      }, 5000);
+    }
+  };
 
   return (
     <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
@@ -57,11 +78,18 @@ const FormTwo = () => {
         <textarea className="form-control" name="contact-message" rows={4}></textarea>
       </div>
       <div className="form-group">
-        <button type="submit" className="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">
-          Get Pricing Now
+        <button 
+          type="submit" 
+          className="axil-btn btn-fill-primary btn-fluid btn-primary" 
+          name="submit-btn"
+          disabled={isLoading}
+        >
+          {isLoading ? 'Sending...' : 'Get Pricing Now'}
         </button>
       </div>
-      <div className="form-group">{result ? <Result /> : null}</div>
+      <div className="form-group">
+        {result && <Result type={result.type} message={result.message} />}
+      </div>
     </form>
   );
 };
