@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import Alert from "react-bootstrap/Alert";
 
 const Result = ({ type, message }: { type: 'success' | 'error', message: string }) => {
@@ -23,23 +22,7 @@ const FormTwo = () => {
     try {
       if (form.current) {
         // Replace these with your actual EmailJS credentials
-        const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "your_service_id";
-        const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "your_template_id";
-        const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "your_public_key";
-
-        const response = await emailjs.sendForm(serviceId, templateId, form.current, publicKey);
-        
-        if (response.status === 200) {
-          setResult({
-            type: 'success',
-            message: 'Your message has been successfully sent! We will get back to you within 24 hours.'
-          });
-          if (form.current) {
-            (form.current as HTMLFormElement).reset();
-          }
-        } else {
-          throw new Error('Failed to send email');
-        }
+    
       }
     } catch (error) {
       console.error('Error sending email:', error);
