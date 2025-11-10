@@ -61,8 +61,8 @@ export default function ServiceDetailsPage({ params }: Props) {
                 <div className="service-icon mb-4">
                   <img src={service.image} alt={service.title} className="img-fluid" style={{maxWidth: '80px'}} />
                 </div>
-                <h2 className="mb-4">{service.title}</h2>
-                <p className="lead mb-4">{service.description}</p>
+                {/* <h2 className="mb-4">{service.title}</h2> */}
+                {/* <p className="lead mb-4">{service.description}</p> */}
                 {service.cate && (
                   <span className="badge bg-primary fs-6 mb-4">{service.cate}</span>
                 )}
