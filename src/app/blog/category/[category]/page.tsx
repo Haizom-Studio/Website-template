@@ -1,4 +1,4 @@
-"use client";
+export const runtime = 'edge';
 
 import React from 'react';
 import Link from 'next/link';
@@ -33,6 +33,7 @@ interface BlogPost {
     behance: string;
   }>;
 }
+
 
 const BlogCategoryPage = () => {
   const params = useParams();

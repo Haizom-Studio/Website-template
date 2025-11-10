@@ -1,4 +1,4 @@
-"use client";
+export const runtime = 'edge';
 
 import React from 'react';
 import Link from 'next/link';
@@ -19,6 +19,7 @@ interface CaseStudy {
   details: string;
   solution: string;
 }
+
 
 const CaseStudyDetailPage = () => {
   const params = useParams();
