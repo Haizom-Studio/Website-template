@@ -96,7 +96,7 @@ export default function ServiceDetailsPage({ params }: Props) {
             <div className="col-lg-12">
               <SectionTitle
                 subtitle="Why Choose This Service"
-                title="Key Benefits of Our <br> {service.title} Service"
+                title={`Key Benefits of Our <br> ${service.title} Service`}
                 description="Discover the advantages that make our service the right choice for your business needs."
                 textAlignment="heading-center"
                 textColor=""
@@ -156,7 +156,7 @@ export default function ServiceDetailsPage({ params }: Props) {
         <div className="container">
           <SectionTitle
             subtitle="Why Choose Us"
-            title="What makes our <br> {service.title} service special?"
+            title={`What makes our <br> ${service.title} service special?`}
             description="We deliver exceptional results through our proven methodology and experienced team."
             textAlignment="heading-center"
             textColor=""
