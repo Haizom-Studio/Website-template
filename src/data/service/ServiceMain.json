@@ -1,6 +1,6 @@
 [
   {
-    "image": "/images/icon/icon-1.png",
+    "image": "/images/icon/icon-48.png",
     "title": "PCB Design & Prototyping",
     "description": "Custom circuit board layouts, schematic capture, PCB prototyping, and design for manufacturability.",
     "process": {
@@ -37,7 +37,7 @@
     }
   },
   {
-    "image": "/images/icon/icon-2.png",
+    "image": "/images/icon/icon-49.png",
     "title": "IoT & Embedded Systems",
     "description": "End-to-end embedded solutions - from firmware design to wireless connectivity using BLE, LoRa and MQTT. We build intelligent systems with optimized performance and low power consumption.",
     "process": {
@@ -74,7 +74,7 @@
     }
   },
   {
-    "image": "/images/icon/icon-3.png",
+    "image": "/images/icon/icon-51.png",
     "title": "Hardware Programming",
     "description": "Specialized in firmware development using C/C++ and Python for microcontrollers like ESP32, STM32, and ARM Cortex. Focused on real-time performance, peripheral integration, and power-efficient operation.",
     "process": {
@@ -111,7 +111,7 @@
     }
   },
   {
-    "image": "/images/icon/icon-4.png",
+    "image": "/images/icon/icon-50.png",
     "title": "DevOps & Cloud Infrastructure",
     "description": "Automated CI/CD pipelines, Docker & Kubernetes containerization, and scalable cloud deployment using AWS, GCP, and Azure.",
     "process": {
@@ -148,7 +148,7 @@
     }
   },
   {
-    "image": "/images/icon/icon-5.png",
+    "image": "/images/icon/icon-2.png",
     "title": "Web Development & Dashboards",
     "description": "Full-stack web apps, admin dashboards, and interactive data visualization tools built using React, Node.js, Angular, and Python frameworks.",
     "process": {
@@ -185,7 +185,7 @@
     }
   },
   {
-    "image": "/images/icon/icon-6.png",
+    "image": "/images/icon/icon-4.png",
     "title": "Mobile App Development",
     "description": "Cross-platform Android and iOS apps built with React Native and Flutter, featuring real-time backend integration and seamless user experiences.",
     "process": {
