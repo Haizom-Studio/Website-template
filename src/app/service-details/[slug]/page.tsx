@@ -44,29 +44,21 @@ export default function ServiceDetailsPage({ params }: Props) {
 
   return (
     <>
-      {/* Breadcrumb Banner */}
-      <BcrumbBannerOne
-        title={service.title}
-        paragraph={service.description}
-        styleClass=""
-        mainThumb={service.image}
-      />
-
-      {/* Service Overview */}
-      <div className="section section-padding">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="service-overview fade-in">
-                <div className="service-icon mb-4">
-                  <img src={service.image} alt={service.title} className="img-fluid" style={{maxWidth: '80px'}} />
-                </div>
-                {/* <h2 className="mb-4">{service.title}</h2> */}
-                {/* <p className="lead mb-4">{service.description}</p> */}
-                {service.cate && (
-                  <span className="badge bg-primary fs-6 mb-4">{service.cate}</span>
-                )}
-                <div className="service-actions mt-4">
+      {/* Breadcrumb Banner with Overlay Content */}
+      <div style={{ position: 'relative' }}>
+        <BcrumbBannerOne
+          title={service.title}
+          paragraph={service.description}
+          styleClass=""
+          mainThumb={service.image}
+        />
+        
+        {/* Desktop: Buttons below description and Picture overlay */}
+        <div className="d-none d-lg-block" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, pointerEvents: 'none' }}>
+          <div className="container" style={{ position: 'relative', height: '100%' }}>
+            <div className="row" style={{ height: '100%' }}>
+              <div className="col-lg-6" style={{ pointerEvents: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', paddingTop: '280px' }}>
+                <div className="service-actions" style={{ marginTop: '180px' }}>
                   <a href="#contact" className="btn btn-primary btn-lg me-3">
                     Get Started
                   </a>
@@ -75,13 +67,49 @@ export default function ServiceDetailsPage({ params }: Props) {
                   </a>
                 </div>
               </div>
+              <div className="col-lg-6" style={{ pointerEvents: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
+                <div className="service-image fade-in">
+                  <img 
+                    src={service.image} 
+                    alt={service.title} 
+                    className="img-fluid rounded shadow"
+                    style={{ maxWidth: '400px' }}
+                  />
+                </div>
+              </div>
             </div>
-            <div className="col-lg-6">
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile: Service Overview */}
+      <div className="section section-padding d-lg-none">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-12 col-md-6 mb-4 mb-md-0">
+              <div className="service-overview fade-in">
+                {/* <div className="service-icon mb-4">
+                  <img src={service.image} alt={service.title} className="img-fluid" style={{maxWidth: '80px'}} />
+                </div> */}
+                {service.cate && (
+                  <span className="badge bg-primary fs-6 mb-4">{service.cate}</span>
+                )}
+                <div className="service-actions mt-4 d-flex flex-column flex-sm-row gap-2 gap-sm-3">
+                  <a href="#contact" className="btn btn-primary btn-lg">
+                    Get Started
+                  </a>
+                  <a href="#process" className="btn btn-outline-primary btn-lg">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6">
               <div className="service-image fade-in">
                 <img 
                   src={service.image} 
                   alt={service.title} 
-                  className="img-fluid rounded shadow"
+                  className="img-fluid rounded shadow w-100"
                 />
               </div>
             </div>
