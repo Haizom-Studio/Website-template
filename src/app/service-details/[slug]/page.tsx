@@ -54,7 +54,7 @@ export default function ServiceDetailsPage({ params }: Props) {
         />
         
         {/* Desktop: Buttons below description and Picture overlay */}
-        <div className="d-none d-lg-block" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, pointerEvents: 'none' }}>
+        <div className="d-none d-lg-block" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 3, pointerEvents: 'none' }}>
           <div className="container" style={{ position: 'relative', height: '100%' }}>
             <div className="row" style={{ height: '100%' }}>
               <div className="col-lg-6" style={{ pointerEvents: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', paddingTop: '280px' }}>
@@ -73,7 +73,7 @@ export default function ServiceDetailsPage({ params }: Props) {
                     src={service.image} 
                     alt={service.title} 
                     className="img-fluid rounded shadow"
-                    style={{ maxWidth: '400px' }}
+                    style={{ maxWidth: '550px' }}
                   />
                 </div>
               </div>
